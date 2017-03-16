@@ -1,6 +1,5 @@
 # webpack-vue-app
-
-> test
+> Vue app start kit based on webpack.
 
 ## Build Setup
 
