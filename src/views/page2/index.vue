@@ -2,6 +2,7 @@
   <div class="page2-view">
     <h1>Page2 content</h1>
     <div class="bd">{{msg}}</div>
+    <p>{{memory}}</p>
     <hello />
   </div>
 </template>
@@ -13,7 +14,8 @@ export default {
   name: 'page1',
   data () {
     return {
-      msg: 'Welcome to Your page2.js App'
+      msg: 'Welcome to Your page2.js App',
+      memory:ReduxAppBase.memory()
     }
   },
   components:{

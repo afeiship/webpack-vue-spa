@@ -11,7 +11,7 @@ export default {
   initialState:function(){
     return {
       memory:{
-        test:12
+        test:'I am from APP.vue'
       }
     }
   }
