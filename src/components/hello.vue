@@ -36,14 +36,11 @@ export default {
   methods:{
     _click:function(){
       const {memory} = ReduxAppBase.actions;
-      // AppBase.store.dispatch(
-      //   actions.update({test:'BTN'})
-      // );
       memory({
-        test:1234
-      })
-      // console.log(AppBase.store.getState());
-      console.log('click',ReduxAppBase.memory());
+        test:'modify by btn click',
+        name:'btn',
+        event:'click'
+      });
     }
   }
 }
