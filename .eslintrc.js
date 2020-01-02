@@ -27,5 +27,10 @@ module.exports = {
   },
   globals: {
     nx: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      legacyDecorators: true
+    }
   }
 }
